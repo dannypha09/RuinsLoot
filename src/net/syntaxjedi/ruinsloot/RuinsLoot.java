@@ -51,7 +51,7 @@ public class RuinsLoot extends JavaPlugin{
 		timel = (long)time;
 		
 		spawnTime = getConfig().getInt("random.ticks");
-		spawnTimeL = (long)spawnTimeL;
+		spawnTimeL = (long)spawnTime;
 		
 		 BukkitScheduler scheduler = getServer().getScheduler();
 	        scheduler.scheduleSyncRepeatingTask(this, new Runnable() {
